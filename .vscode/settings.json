@@ -1,0 +1,23 @@
+{
+    "Lua.workspace.library": [
+        "/home/rich/.config/nvim",
+        "/home/rich/.local/share/nvim/site",
+        "/home/rich/.local/share/nvim/lazy/lazy.nvim",
+        "/home/rich/.local/share/nv im/lazy/neodev.nvim",
+        "/home/rich/.local/share/nvim/lazy/plenary.nvim",
+        "/home/rich/.local/share/nvim/lazy/telescope.nvim",
+        "/home/rich/.loc al/share/nvim/lazy/overseer.nvim",
+        "/home/rich/.local/share/nvim/lazy/mason.nvim",
+        "/home/rich/.local/share/nvim/lazy/Comment.nvim",
+        "/home/rich/.local/share/nvim/lazy/cmp-nvim-lsp",
+        "/home/rich/.local/share/nvim/lazy/nvim-cmp",
+        "/home/rich/.loc al/share/nvim/lazy/LuaSnip",
+        "/home/rich/install/nvim-linux64/share/nvim/runtime",
+        "/home/rich/install/nvim-linux64/share/nvim/runtime/pack/ dist/opt/matchit",
+        "/home/rich/install/nvim-linux64/lib/nvim",
+        "/home/rich/.local/state/nvim/lazy/readme",
+        "/home/rich/.local/share/nvim/laz y/cmp-nvim-lsp/after"
+    ],
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.diagnostics.globals": ["vim"]
+}
