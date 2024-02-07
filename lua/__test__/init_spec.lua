@@ -7,8 +7,8 @@ describe('Init tests', function()
     end
 
     it('Setup test', function()
-        test_delay(nil, 300)
-        test_delay(500, 500)
-        test_delay('foo', 500)
+        test_delay(nil, 500)
+        test_delay(1000, 1000)
+        test_delay('foo', 1000)
     end)
 end)
