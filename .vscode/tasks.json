@@ -12,14 +12,14 @@
             "linux": {
                 "options": {
                     "env": {
-                        "PLENARY_PATH": "/home/rich/.local/share/nvim/lazy/plenary.nvim"
+                        "PLENARY_PATH": ""
                     }
                 }
             },
             "windows": {
                 "options": {
                     "env": {
-                        "PLENARY_PATH": "C:\\Users\\rich\\AppData\\Local\\nvim-data\\lazy\\plenary.nvim"
+                        "PLENARY_PATH": ""
                     }
                 }
             },
@@ -41,14 +41,14 @@
             "linux": {
                 "options": {
                     "env": {
-                        "PLENARY_PATH": "/home/rich/.local/share/nvim/lazy/plenary.nvim"
+                        "PLENARY_PATH": ""
                     }
                 }
             },
             "windows": {
                 "options": {
                     "env": {
-                        "PLENARY_PATH": "C:\\Users\\rich\\AppData\\Local\\nvim-data\\lazy\\plenary.nvim"
+                        "PLENARY_PATH": ""
                     }
                 }
             },
