@@ -55,7 +55,7 @@ function M._stop_timer()
 end
 
 vim.api.nvim_create_autocmd('ModeChanged', {
-    pattern = 'n:i',
+    pattern = '*:i',
     callback = function()
         M._start_timer()
     end
