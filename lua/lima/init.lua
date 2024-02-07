@@ -3,7 +3,7 @@ local M = {}
 M.delay = 500
 M.timer = nil
 M.enabled = true
-M.do_leave_insert = function() return true end
+M.stay_in_insert = function() return false end
 
 function M.setup(opts)
     opts = opts or {}
@@ -12,8 +12,8 @@ function M.setup(opts)
         M.delay = opts.delay
     end
 
-    if type(opts.do_leave_insert) == 'function' then
-        M.do_leave_insert = opts.do_leave_insert
+    if type(opts.stay_in_insert) == 'function' then
+        M.stay_in_insert = opts.stay_in_insert
     end
 end
 
@@ -40,10 +40,10 @@ function M._start_timer()
     end
 
     M.timer = vim.defer_fn(function()
-        if type(M.do_leave_insert) ~= 'function' or M.do_leave_insert() then
-            vim.cmd('stopinsert')
-        else
+        if type(M.stay_in_insert) == 'function' and M.stay_in_insert() then
             M._restart_timer()
+        else
+            vim.cmd('stopinsert')
         end
     end, M.delay)
 end
